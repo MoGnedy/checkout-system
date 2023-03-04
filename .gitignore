@@ -1,0 +1,13 @@
+# Compiled output
+dist/
+
+# Dependencies
+node_modules/
+
+# Editor files
+.vscode/
+.idea/
+
+
+# macOS
+.DS_Store

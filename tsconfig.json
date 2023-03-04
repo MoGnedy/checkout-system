@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "outDir": ".build",
+        "rootDir": "src",
+        "target": "ES2019",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "types": [
+            "node",
+            "jest"
+        ],
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "useUnknownInCatchVariables": false
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
