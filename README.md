@@ -57,8 +57,8 @@ const products = [
 
 // create promotion rules
 const promotions = [
-  new QuantityDiscountPromotion("Pizza", "002", 2, 3.99),
-  new ThresholdDiscountPromotion("Total 10%", 30, 10),
+  new QuantityDiscountPromotion("id1","Pizza", "002", 2, 3.99),
+  new ThresholdDiscountPromotion("id2", "Total 10%", 30, 10),
 ];
 
 // create a new checkout instance
